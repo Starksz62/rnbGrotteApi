@@ -1,0 +1,59 @@
+
+[{
+    "nom": "Grotte mystérieuse",
+    "prix": 20.99,
+    "description": "Explorez les profondeurs de cette grotte mystérieuse remplie de merveilles géologiques.",
+    "animaux_interdits": ["Chiens", "Chats", "Oiseaux"],
+    "date": "",
+    "avis_utilisateurs": [
+      {
+        "nom_utilisateur": "Alice",
+        "commentaire": "C'était une expérience incroyable !",
+        "note": 5
+      },
+      {
+        "nom_utilisateur": "Bob",
+        "commentaire": "La grotte était magnifique, mais un peu sombre.",
+        "note": 4
+      },
+      {
+        "nom_utilisateur": "Charlie",
+        "commentaire": "Je ne recommande pas d'y aller avec des animaux, ils sont interdits.",
+        "note": 2
+      }
+    ],
+    "photos": [
+      "https://example.com/grotte/photo1.jpg",
+      "https://example.com/grotte/photo2.jpg"
+    ]
+  },
+  {
+    "nom": "Grotte mystérieuse",
+    "prix": 20.99,
+    "description": "Explorez les profondeurs de cette grotte mystérieuse remplie de merveilles géologiques.",
+    "animaux_interdits": ["Chiens", "Chats", "Oiseaux"],
+    "date": "",
+    "avis_utilisateurs": [
+      {
+        "nom_utilisateur": "Alice",
+        "commentaire": "C'était une expérience incroyable !",
+        "note": 5
+      },
+      {
+        "nom_utilisateur": "Bob",
+        "commentaire": "La grotte était magnifique, mais un peu sombre.",
+        "note": 4
+      },
+      {
+        "nom_utilisateur": "Charlie",
+        "commentaire": "Je ne recommande pas d'y aller avec des animaux, ils sont interdits.",
+        "note": 2
+      }
+    ],
+    "photos": [
+      "https://example.com/grotte/photo1.jpg",
+      "https://example.com/grotte/photo2.jpg"
+    ]
+  }
+]
+  
