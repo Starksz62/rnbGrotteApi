@@ -1,59 +1,83 @@
-
-[{
-    "nom": "Grotte mystérieuse",
-    "prix": 20.99,
-    "description": "Explorez les profondeurs de cette grotte mystérieuse remplie de merveilles géologiques.",
-    "animaux_interdits": ["Chiens", "Chats", "Oiseaux"],
-    "date": "",
-    "avis_utilisateurs": [
-      {
-        "nom_utilisateur": "Alice",
-        "commentaire": "C'était une expérience incroyable !",
-        "note": 5
+{
+  "grottes": [
+    {
+      "id": "1",
+      "nom": "Le Repère des Rocheux Rêveur",
+      "description": "Grotte unique, entourée d'une luxuriante végétation qui créée un spectacle féérique. Ce sanctuaire naturel, secret et apaisant, invite à l'évasion dans un monde où le temps semble suspendu.",
+      "images": {
+        "principale": "http://localhost:4875/assets/grotte3.png",
+        "secondaire": ["http://localhost:4875/assets/paysage7.png", "http://localhost:4875/assets/paysage2.png"]
       },
-      {
-        "nom_utilisateur": "Bob",
-        "commentaire": "La grotte était magnifique, mais un peu sombre.",
-        "note": 4
+      "type": "grotte",
+      "endroit": {
+        "type": "falaise",
+        "specificite": "maritime"
       },
-      {
-        "nom_utilisateur": "Charlie",
-        "commentaire": "Je ne recommande pas d'y aller avec des animaux, ils sont interdits.",
-        "note": 2
-      }
-    ],
-    "photos": [
-      "https://example.com/grotte/photo1.jpg",
-      "https://example.com/grotte/photo2.jpg"
-    ]
-  },
-  {
-    "nom": "Grotte mystérieuse",
-    "prix": 20.99,
-    "description": "Explorez les profondeurs de cette grotte mystérieuse remplie de merveilles géologiques.",
-    "animaux_interdits": ["Chiens", "Chats", "Oiseaux"],
-    "date": "",
-    "avis_utilisateurs": [
-      {
-        "nom_utilisateur": "Alice",
-        "commentaire": "C'était une expérience incroyable !",
-        "note": 5
+      "prix": {
+        "categorie": "miteux",
+        "valeur": 30,
+        "modeDePaiement": "champignons"
       },
-      {
-        "nom_utilisateur": "Bob",
-        "commentaire": "La grotte était magnifique, mais un peu sombre.",
-        "note": 4
+      "animauxAcceptes": true,
+      "note": 4.5,
+      "eau": {
+        "coinEau": true,
+        "cascade": false
       },
-      {
-        "nom_utilisateur": "Charlie",
-        "commentaire": "Je ne recommande pas d'y aller avec des animaux, ils sont interdits.",
-        "note": 2
-      }
-    ],
-    "photos": [
-      "https://example.com/grotte/photo1.jpg",
-      "https://example.com/grotte/photo2.jpg"
-    ]
-  }
-]
-  
+      "avis": [
+        {
+          "utilisateur": "Aventurier123",
+          "date": "2023-07-15",
+          "note": 5,
+          "commentaire": "Une expérience inoubliable, un lieu magique où le temps s'arrête."
+        },
+        {
+          "utilisateur": "NatureLover",
+          "date": "2023-08-03",
+          "note": 4,
+          "commentaire": "Beauté naturelle à couper le souffle, mais attention aux chemins escarpés."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nom": "Hutte du Sorcier",
+      "description": "Une hutte mystique cachée dans les profondeurs de la forêt, entourée d'anciennes magies.",
+      "images": {
+        "principale": "http://localhost:4875/assets/hutte3.png",
+        "secondaire": ["http://localhost:4875/assets/paysage9.png", "http://localhost:4875/assets/paysage12.png"]
+      },
+      "type": "hutte",
+      "endroit": {
+        "type": "forêt",
+        "specificite": "enchantée"
+      },
+      "prix": {
+        "categorie": "top",
+        "valeur": 100,
+        "modeDePaiement": "viande"
+      },
+      "animauxAcceptes": false,
+      "note": 5,
+      "eau": {
+        "coinEau": false,
+        "cascade": true
+      },
+      "avis": [
+        {
+          "utilisateur": "Magicien78",
+          "date": "2023-09-10",
+          "note": 4.5,
+          "commentaire": "Un endroit mystique, idéal pour la méditation."
+        },
+        {
+          "utilisateur": "ForestExplorer",
+          "date": "2023-09-15",
+          "note": 5,
+          "commentaire": "On se sent transporté dans un autre monde, un véritable joyau caché."
+        }
+      ]
+    }
+  ],
+  "categories": ["grotte", "hutte", "piscine naturelle", "cascade"]
+}

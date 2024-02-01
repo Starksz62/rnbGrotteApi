@@ -5,7 +5,12 @@ const cave = require('./API/grotte.json')
 app.use(express.json());
 const cors = require("cors");
 app.use(cors());
+const path = require('path');
 
+
+const assetsFolderPath = path.join(__dirname, 'assets');
+
+app.use('/assets', express.static(assetsFolderPath));
 
 app.get('/cave/all', (req,res) => {
     res.json(cave)
