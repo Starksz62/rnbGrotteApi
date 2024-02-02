@@ -77,7 +77,306 @@
           "commentaire": "On se sent transporté dans un autre monde, un véritable joyau caché."
         }
       ]
-    }
+    },
+    {
+      "id": "3",
+      "nom": "Grotte des mystères Enfouis",
+      "description": "Une grotte fascinante cachée sous une montagne majestueuse, remplie de mystères à découvrir.",
+      "images": {
+        "principale": "http://localhost:4875/assets/grotte7.png",
+        "secondaire": ["http://localhost:4875/assets/paysage5.png", "http://localhost:4875/assets/paysage10.png"]
+      },
+      "type": "grotte",
+      "endroit": {
+        "type": "montagne",
+        "specificite": "forêt"
+      },
+      "prix": {
+        "categorie": "bon marché",
+        "valeur": 50,
+        "modeDePaiement": "cailloux"
+      },
+      "animauxAcceptes": true,
+      "note": 4.8,
+      "eau": {
+        "coinEau": true,
+        "cascade": false
+      },
+      "avis": [
+        {
+          "utilisateur": "ExplorerX",
+          "date": "2023-10-20",
+          "note": 4.7,
+          "commentaire": "Une grotte mystérieuse qui réserve bien des surprises, un endroit unique pour les aventuriers."
+        },
+        {
+          "utilisateur": "MysticSeeker",
+          "date": "2023-11-05",
+          "note": 5,
+          "commentaire": "J'ai ressenti une énergie incroyable à cet endroit, c'est comme si la grotte avait une histoire à raconter."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nom": "Hutte de la Sérénité",
+      "description": "Une petite hutte isolée au bord d'un lac cristallin, parfaite pour se ressourcer et méditer en pleine nature.",
+      "images": {
+        "principale": "http://localhost:4875/assets/hutte1.png",
+        "secondaire": ["http://localhost:4875/assets/paysage15.png", "http://localhost:4875/assets/paysage4.png"]
+      },
+      "type": "hutte",
+      "endroit": {
+        "type": "forêt",
+        "specificite": "isolé"
+      },
+      "prix": {
+        "categorie": "abordable",
+        "valeur": 70,
+        "modeDePaiement": "fruits"
+      },
+      "animauxAcceptes": true,
+      "note": 4.9,
+      "eau": {
+        "coinEau": true,
+        "cascade": false
+      },
+      "avis": [
+        {
+          "utilisateur": "PeacefulSoul",
+          "date": "2023-12-10",
+          "note": 5,
+          "commentaire": "Un havre de paix au milieu de la nature, j'ai trouvé la tranquillité ici."
+        },
+        {
+          "utilisateur": "MeditationMaster",
+          "date": "2024-01-02",
+          "note": 4.8,
+          "commentaire": "Idéal pour la méditation, la vue sur le lac est apaisante."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "nom": "La Grotte du Ruisseau Paisible",
+      "description": "Une cabane rustique près d'un ruisseau paisible, l'endroit parfait pour une retraite en pleine nature.",
+      "images": {
+        "principale": "http://localhost:4875/assets/grotte14.png",
+        "secondaire": ["http://localhost:4875/assets/paysage6.png", "http://localhost:4875/assets/paysage8.png"]
+      },
+      "type": "grotte",
+      "endroit": {
+        "type": "forêt",
+        "specificite": "ruisseau"
+      },
+      "prix": {
+        "categorie": "économique",
+        "valeur": 40,
+        "modeDePaiement": "baies"
+      },
+      "animauxAcceptes": false,
+      "note": 4.7,
+      "eau": {
+        "coinEau": true,
+        "cascade": false
+      },
+      "avis": [
+        {
+          "utilisateur": "NatureObserver",
+          "date": "2024-02-05",
+          "note": 4.5,
+          "commentaire": "Un endroit charmant pour une escapade nature, mais soyez prêt pour une expérience authentique."
+        },
+        {
+          "utilisateur": "RusticRetreat",
+          "date": "2024-02-15",
+          "note": 4.8,
+          "commentaire": "J'ai adoré me réveiller au son du ruisseau, un séjour inoubliable."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "nom": "Grotte des Étoiles Brillantes",
+      "description": "Une grotte cachée au sommet d'une montagne, célèbre pour ses formations de stalactites scintillantes. Une expérience céleste vous attend à l'intérieur.",
+      "images": {
+         "principale": "http://localhost:4875/assets/grotte12.png",
+         "secondaire": ["http://localhost:4875/assets/paysage17.png", "http://localhost:4875/assets/paysage21.png"]
+          },
+          "type": "grotte",
+          "endroit": {
+            "type": "montagne",
+            "specificite": "scintillante"
+          },
+          "prix": {
+            "categorie": "premium",
+            "valeur": 200,
+            "modeDePaiement": "viande"
+          },
+          "animauxAcceptes": true,
+          "note": 4.7,
+          "eau": {
+            "coinEau": false,
+            "cascade": true
+          },
+          "avis": [
+            {
+              "utilisateur": "Stargazer",
+              "date": "2023-10-05",
+              "note": 5,
+              "commentaire": "Un endroit magique pour observer les étoiles, un rêve devenu réalité."
+            },
+            {
+              "utilisateur": "AdventureSeeker",
+              "date": "2023-10-15",
+              "note": 4.5,
+              "commentaire": "La visite en vaut la peine, mais il faut être préparé pour l'ascension."
+            }
+          ]
+   },
+   {
+    "id": "7",
+    "nom": "Hutte de l'Herboriste",
+    "description": "Une petite hutte nichée au cœur de la forêt, où un herboriste talentueux concocte des potions magiques. Un lieu de sérénité et de guérison.",
+    "images": {
+      "principale": "http://localhost:4875/assets/hutte2.png",
+      "secondaire": ["http://localhost:4875/assets/paysage11.png", "http://localhost:4875/assets/paysage9.png"]
+          },
+          "type": "hutte",
+          "endroit": {
+            "type": "forêt",
+            "specificite": "apaisante"
+          },
+          "prix": {
+            "categorie": "modéré",
+            "valeur": 75,
+            "modeDePaiement": "plantes"
+          },
+          "animauxAcceptes": true,
+          "note": 4.8,
+          "eau": {
+            "coinEau": true,
+            "cascade": false
+          },
+          "avis": [
+            {
+              "utilisateur": "HerbEnthusiast",
+              "date": "2023-11-02",
+              "note": 5,
+              "commentaire": "Un endroit merveilleux pour les amoureux des plantes, j'ai découvert des herbes rares ici."
+            },
+            {
+              "utilisateur": "NatureHealer",
+              "date": "2023-11-20",
+              "note": 4.5,
+              "commentaire": "Une atmosphère apaisante, parfait pour la méditation et la guérison."
+            }
+          ]
+   },
+   {
+    "id": "8",
+    "nom": "Grotte de l'Ancienne Sagesse",
+    "description": "Une grotte ancestrale où les anciens sages venaient méditer. Les parois sont ornées de symboles mystiques et d'histoires gravées.",
+    "images": {
+      "principale": "http://localhost:4875/assets/grotte1.png",
+      "secondaire": ["http://localhost:4875/assets/paysage14.png", "http://localhost:4875/assets/paysage3.png"]
+          },
+          "type": "grotte",
+          "endroit": {
+            "type": "montagne",
+            "specificite": "sacrée"
+          },
+          "prix": {
+            "categorie": "premium",
+            "valeur": 100,
+            "modeDePaiement": "perles lumineuses"
+          },
+          "animauxAcceptes": false,
+          "note": 4.9,
+          "eau": {
+            "coinEau": false,
+            "cascade": false
+          },
+          "avis": []
+   },
+   {
+    "id": "9",
+    "nom": "Hutte du Ruisseau Étoilé",
+    "description": "Une hutte pittoresque située près d'un ruisseau scintillant. La nuit, le ruisseau s'illumine de mille feux, créant un spectacle enchanteur.",
+    "images": {
+      "principale": "http://localhost:4875/assets/hutte5.png",
+      "secondaire": ["http://localhost:4875/assets/paysage18.png", "http://localhost:4875/assets/paysage22.png"]
+          },
+          "type": "hutte",
+          "endroit": {
+            "type": "forêt",
+            "specificite": "ruisseau"
+          },
+          "prix": {
+            "categorie": "modéré",
+            "valeur": 80,
+            "modeDePaiement": "perles lumineuses"
+          },
+          "animauxAcceptes": true,
+          "note": 4.7,
+          "eau": {
+            "coinEau": true,
+            "cascade": false
+          },
+          "avis": [
+            {
+              "utilisateur": "StarGazer77",
+              "date": "2023-12-10",
+              "note": 4.8,
+              "commentaire": "Le ruisseau étoilé est une expérience magique, parfait pour les amoureux de la nature."
+            },
+            {
+              "utilisateur": "NatureLover22",
+              "date": "2023-12-18",
+              "note": 4.5,
+              "commentaire": "Un lieu charmant pour une escapade romantique, les lumières du ruisseau sont féériques."
+            }
+          ]
+    },
+    {
+      "id": "10",
+      "nom": "Grotte du Dragon Ancien",
+      "description": "Une grotte légendaire où, dit-on, vivait un dragon ancien. Les visiteurs viennent chercher la sagesse et la courage à l'intérieur de ses sombres galeries.",
+      "images": {
+        "principale": "http://localhost:4875/assets/grotte5.png",
+        "secondaire": ["http://localhost:4875/assets/paysage20.png", "http://localhost:4875/assets/paysage13.png"]
+          },
+          "type": "grotte",
+          "endroit": {
+            "type": "montagne",
+            "specificite": "dragon"
+          },
+          "prix": {
+            "categorie": "aventure",
+            "valeur": 150,
+            "modeDePaiement": "viande"
+          },
+          "animauxAcceptes": false,
+          "note": 4.6,
+          "eau": {
+            "coinEau": false,
+            "cascade": true
+          },
+          "avis": [
+            {
+              "utilisateur": "DragonSeeker",
+              "date": "2024-01-05",
+              "note": 4.7,
+              "commentaire": "La grotte du dragon est empreinte de mystère, une expérience unique que je recommande."
+            },
+            {
+              "utilisateur": "BraveExplorer",
+              "date": "2024-01-15",
+              "note": 4.5,
+              "commentaire": "Un endroit pour tester votre courage, l'atmosphère est à couper le souffle."
+            }
+          ]
+     }
   ],
   "categories": ["grotte", "hutte", "piscine naturelle", "cascade"]
 }
