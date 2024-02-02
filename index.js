@@ -1,7 +1,8 @@
 const express= require('express');
+const fs = require('fs')
 const app = express();
 const port = 4875 ;
-const cave = require('./API/grotte.json')
+let cave = require('./API/grotte.json')
 app.use(express.json());
 const cors = require("cors");
 app.use(cors());
@@ -14,7 +15,16 @@ app.use('/assets', express.static(assetsFolderPath));
 
 app.get('/cave/all', (req,res) => {
     res.json(cave)
+    
 })
+app.get('/cave/:id', (req,res) => {
+    
+    const poulet = cave.grottes.find((cav) => 
+        cav.id == req.params.id
+    ) 
+    res.json(poulet)
+})
+
 
 app.listen(port, () => {
     console.log(`Ecoute du port ${port}`);
