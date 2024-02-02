@@ -9,6 +9,7 @@
         "secondaire": ["http://localhost:4875/assets/paysage7.png", "http://localhost:4875/assets/paysage2.png"]
       },
       "type": "grotte",
+      "type1": "piscine",
       "endroit": {
         "type": "falaise",
         "specificite": "maritime"
@@ -87,6 +88,7 @@
         "secondaire": ["http://localhost:4875/assets/paysage5.png", "http://localhost:4875/assets/paysage10.png"]
       },
       "type": "grotte",
+      "type1": "piscine",
       "endroit": {
         "type": "montagne",
         "specificite": "forêt"
@@ -165,6 +167,7 @@
         "secondaire": ["http://localhost:4875/assets/paysage6.png", "http://localhost:4875/assets/paysage8.png"]
       },
       "type": "grotte",
+      "type1": "piscine",
       "endroit": {
         "type": "forêt",
         "specificite": "ruisseau"
@@ -277,6 +280,7 @@
     "id": "8",
     "nom": "Grotte de l'Ancienne Sagesse",
     "description": "Une grotte ancestrale où les anciens sages venaient méditer. Les parois sont ornées de symboles mystiques et d'histoires gravées.",
+    "type1": "piscine",
     "images": {
       "principale": "http://localhost:4875/assets/grotte1.png",
       "secondaire": ["http://localhost:4875/assets/paysage14.png", "http://localhost:4875/assets/paysage3.png"]
